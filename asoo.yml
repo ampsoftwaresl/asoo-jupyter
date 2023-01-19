@@ -4,7 +4,11 @@ script:
     commands:
       - 'apt -y install python3'
       - 'apt -y install python3-pip'
+  update:
+    sudo: true
+    commands:
+      - 'pip3 install --upgrade pip'
   jupyterlab:
     sudo: true
     commands:
-      - '-H pip3 install jupyterlab'
+      - 'pip3 install jupyterlab'
