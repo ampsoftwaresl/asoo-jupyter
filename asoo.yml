@@ -7,4 +7,4 @@ script:
   jupyterlab:
     sudo: true
     commands:
-      - 'pip3 install jupyterlab'
+      - '-H pip3 install jupyterlab'
