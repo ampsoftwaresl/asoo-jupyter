@@ -11,4 +11,4 @@ script:
   jupyterlab:
     sudo: true
     commands:
-      - 'pip3 install jupyterlab'
+      - 'pip3 install jupyterlab --break-system-packages'
