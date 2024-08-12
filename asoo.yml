@@ -7,7 +7,7 @@ script:
   update:
     sudo: true
     commands:
-      - 'pip3 install --upgrade pip'
+      - 'pip3 install --upgrade pip --break-system-packages'
   jupyterlab:
     sudo: true
     commands:
